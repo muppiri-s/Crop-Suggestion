@@ -1,0 +1,76 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#DA7EA1"
+android:gravity="center"
+android:orientation="vertical"
+tools:context=".MainActivity">
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="20dp"
+android:text="@string/Farmer_s_climate_app"
+android:textColor="#090808"
+android:textSize="30sp"
+android:textStyle="bold" />
+<TextView
+android:id="@+id/registerPage"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="20dp"
+android:text="@string/register"
+android:textColor="#090808"
+android:textSize="30sp"
+android:textStyle="bold" />
+<EditText
+android:id="@+id/name"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="@string/user_name"
+android:importantForAutofill="no"
+android:inputType="textPersonName"
+tools:ignore="LabelFor" />
+<EditText
+android:id="@+id/pass"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="@string/password"
+android:importantForAutofill="no"
+android:inputType="textPassword"
+tools:ignore="LabelFor" />
+<EditText
+android:id="@+id/pass2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="20dp"
+
+android:ems="10"
+android:hint="@string/conform_password"
+android:importantForAutofill="no"
+android:inputType="textPassword"
+tools:ignore="LabelFor" />
+<Button
+android:id="@+id/register"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="20dp"
+android:text="@string/register" />
+<TextView
+android:id="@+id/textView3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/existing_user"
+android:textStyle="bold" />
+<Button
+android:id="@+id/button2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/login" />
+
+</LinearLayout>
